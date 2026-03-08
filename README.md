@@ -1,15 +1,18 @@
 # TarkovDLSS45
-This prepatcher lets you use DLSS 4.5 in SPT/Fika.
+This pre-patcher enables DLSS 4.5 support in SPT/Fika.
 
 ## Installation
-1. Copy 'nvngx_dlss.dll' from your live 'EscapeFromTarkov_Data\Plugins\x86_64' folder
-    - The 4.5 .dll can also be found [here](https://www.techpowerup.com/download/nvidia-dlss-dll/)
-2. Paste the .dll in your SPT 'EscapeFromTarkov_Data\Plugins\x86_64' folder
-3. Extract the downloaded prepatcher
-4. Change to any of the new presets in game
+**Warning:** Backup `nvngx_dlss.dll` located in `EscapeFromTarkov_Data\Plugins\x86_64` before proceeding. 
+
+1. Locate `nvngx_dlss.dll` in the live `EscapeFromTarkov_Data\Plugins\x86_64` folder.
+    * The 4.5 DLL is also available [here](https://www.techpowerup.com/download/nvidia-dlss-dll/).
+2. Copy and paste the DLL into the SPT `EscapeFromTarkov_Data\Plugins\x86_64` folder.
+3. Extract the downloaded pre-patcher.
+4. Select one of the new presets in-game.
 
 ## Notes
-Before installing, make sure that you set DLSS to >preset J, or your game will fail to load. The plugin removes old presets as they are no longer functional with DLSS 4.5.
-Setting it to any preset before J will default back to K automatically, this happens even without this mod when using the new DLSS .dll.
+Set DLSS to any setting above **Preset J** before installation to prevent loading failures. This plugin removes obsolete presets that are incompatible with **DLSS 4.5**. 
 
-Don't forget to disable overrides in the drivers.
+Selecting any preset below **J** will result in an automatic reversion to **Preset K**; this behavior occurs natively when using the updated DLSS DLL.
+
+Disable driver-level overrides before use.
