@@ -1,8 +1,9 @@
-# TarkovDLSS45
-This pre-patcher enables DLSS 4.5 support in SPT/Fika.
+# Tarkov DLSS 4.5
+This pre-patcher enables **DLSS 4.5** support in SPT/Fika.
 
 ## Installation
-**Warning:** Backup `nvngx_dlss.dll` located in `EscapeFromTarkov_Data\Plugins\x86_64` before proceeding. 
+> [!WARNING]
+> Backup `nvngx_dlss.dll` located in `EscapeFromTarkov_Data\Plugins\x86_64` of your SPT installation folder before proceeding. 
 
 1. Locate `nvngx_dlss.dll` in the live `EscapeFromTarkov_Data\Plugins\x86_64` folder.
     * The 4.5 DLL is also available [here](https://www.techpowerup.com/download/nvidia-dlss-dll/).
