@@ -14,10 +14,8 @@ namespace TarkovDLSS45
 
             var enumType = module.Types.First(t => t.FullName == "EDLSSPreset");
             var fieldsToRemove = enumType.Fields
-            .Where(f => f.Name != "value__" &&
-                        f.Name != "J" &&
-                        f.Name != "K")
-            .ToArray();
+                .Where(f => f.Name != "value__" && f.Name != "J" && f.Name != "K")
+                .ToArray();
 
             foreach (var field in fieldsToRemove)
             {
